@@ -1,0 +1,11 @@
+@import '~styles/variables.scss';
+
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    position: relative;
+}

@@ -1,9 +1,15 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
+import { Switch, BrowserRouter, Route } from 'react-router-dom';
+import './index.scss';
 
-render(
-	<div>
-		Hello react! I am Julia! Nice to meet u here!
-	</div>,
-	document.getElementById('root')
-);
+import LayoutMain from 'views/LayoutMain';
+
+ReactDOM.render(
+    <BrowserRouter>
+        <Switch>
+            <Route exact path="/" component={LayoutMain} />
+        </Switch>
+    </BrowserRouter>,
+    document.getElementById("app")
+)
