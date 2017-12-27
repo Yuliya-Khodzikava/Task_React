@@ -6,7 +6,6 @@ import './LayoutMain.scss';
 
 class LayoutMain extends Component {
     render() {
-
         return (
             <div className="app">
                 <Main />
