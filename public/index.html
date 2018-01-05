@@ -3,8 +3,33 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+    <link href="style.css" rel="stylesheet"></head>
     <body>
         <div id="app"></div>
+        <script type="text/javascript" src="bundle.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script type="text/javascript">
+             $(document).ready(function(){
+                $("#menu").on("click","a", function (event) {
+                    event.preventDefault();
+                    var id  = $(this).attr('href'),
+                        top = $(id).offset().top;
+                    $('body,html').animate({scrollTop: top}, 1500);
+                });
+            });
+
+            $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                $('#back-top').fadeIn();
+                } else {
+                $('#back-top').fadeOut();
+                }
+            });
+            $('#back-top').click(function() {
+                $('body,html').animate({scrollTop:0},800);
+            });
+        });
+        </script>
     </body>
 </html>

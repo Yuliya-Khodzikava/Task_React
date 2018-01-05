@@ -1,1 +1,36 @@
 @import '~styles/variables.scss';
+@import '~styles/styles.scss';
+
+.c-header {
+    background: url('/home.png') no-repeat top;
+    font-size: $base-font-size;
+    font-weight: bold;
+    letter-spacing: $base-letter-spacing;
+    height: 960px;
+        a {
+            text-decoration: none;
+                span {
+                    color: $black-font-color;
+                }
+        }
+}
+.c-header__menu{
+    margin: 0 auto;
+    padding-top: 60px;
+    height: 85px;
+}
+.c-header__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+        li {
+            height: 85px;
+            display: inline-block;
+            text-align: right;
+            line-height: 5;
+            text-transform: uppercase;
+        }
+}
+.c-header__list .list--left-align {
+    text-align: left;
+}

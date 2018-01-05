@@ -1,0 +1,26 @@
+.container {
+	width: 100%;
+}
+.cols {
+	float: left;
+}
+.container:before,
+.container:after,
+.row:after,
+.row:before {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.cols.col-1   { width: 8.333333333333332%;  }
+.cols.col-2   { width: 16.666666667%;  }
+.cols.col-3   { width: 25%; }
+.cols.col-4   { width: 33.333333333%;    }
+.cols.col-5   { width: 41.666666667%; }
+.cols.col-6   { width: 50%;  }
+.cols.col-7   { width: 58.333333333%; }
+.cols.col-8   { width: 66.666666667%;    }
+.cols.col-9   { width: 75%; }
+.cols.col-10  { width: 83.333333333%;  }
+.cols.col-11  { width: 91,666666667%; }
+.cols.col-12  { width: 100%;    }

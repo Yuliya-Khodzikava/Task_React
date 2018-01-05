@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const config = {
     entry: path.join(__dirname, 'src', 'index.js'),
     output: {
-    		path: path.resolve('public'),
+    		path: path.resolve(__dirname, 'dist'),
     		filename: 'bundle.js',
     	},
     devtool: 'inline-source-map',
@@ -15,7 +15,6 @@ const config = {
             template: 'public/index.html'
         }),
         new ExtractTextPlugin('style.css')
-
     ],
 
     resolve: {
@@ -85,10 +84,10 @@ const config = {
             },
             {
                 test: /\.(jpe?g|png|gif|svg)$/i,
-                use: [
-                    'url-loader?limit=10000',
-                    'img-loader'
-                ]
+                     use: [
+                         'url-loader?limit=10000',
+                         'img-loader'
+                     ]
             }
         ]
     }

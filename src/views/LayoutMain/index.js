@@ -10,6 +10,9 @@ class LayoutMain extends Component {
             <div className="app">
                 <Main />
                 <About />
+                <div id="back-top">
+                  <a href="#" id="up">TOP</a>
+                </div>
             </div>
         );
     }
