@@ -10,7 +10,7 @@ class Main extends Component {
                     <div className="c-header__menu col-12" id="menu">
                         <ul className="c-header__list cols col-5">
                            <div className="row">
-                                <li className="cols col-9"><a href="#about"><span>About us</span></a></li>
+                                <li className="cols col-9"><a href="#about">About us</a></li>
                                 <li className="cols col-3">Work</li>
                            </div>
                         </ul>
