@@ -10,12 +10,19 @@
         a {
             text-decoration: none;
             color: $black-font-color;
+            display: inline-block;
+            cursor: pointer;
+            line-height: 2;
         }
 }
 .c-header__menu{
     margin: 0 auto;
     padding-top: 60px;
     height: 85px;
+}
+.c-header__logo {
+    position: relative;
+    top: -40%;
 }
 .c-header__list {
     margin: 0;
@@ -25,10 +32,24 @@
             height: 85px;
             display: inline-block;
             text-align: right;
-            line-height: 5;
             text-transform: uppercase;
         }
 }
 .c-header__list .list--left-align {
     text-align: left;
+}
+.c-header__list a:after {
+    display: block;
+    position: relative;
+    left: 50%;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: $underline-background-color;
+    transition: all .3s ease-in-out;
+}
+.c-header__list a:hover:after,
+.c-header__list a:focus:after {
+    width: 100%;
+    left: 0;
 }

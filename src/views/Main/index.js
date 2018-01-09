@@ -11,7 +11,7 @@ class Main extends Component {
                         <ul className="c-header__list cols col-5">
                            <div className="row">
                                 <li className="cols col-9"><a href="#about">About us</a></li>
-                                <li className="cols col-3">Work</li>
+                                <li className="cols col-3"><a href="">Work</a></li>
                            </div>
                         </ul>
                         <div className="c-header__logo cols col-2">
@@ -21,8 +21,8 @@ class Main extends Component {
                         </div>
                         <ul className="c-header__list cols col-5">
                           <div className="row">
-                                <li className="list--left-align cols col-3">Shop</li>
-                                <li className="list--left-align cols col-9">Contact</li>
+                                <li className="list--left-align cols col-3"><a href="">Shop</a></li>
+                                <li className="list--left-align cols col-9"><a href="">Contact</a></li>
                           </div>
                         </ul>
                     </div>
