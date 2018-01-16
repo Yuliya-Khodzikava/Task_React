@@ -12,11 +12,15 @@
 }
 .c-about__article h2 {
     text-transform: uppercase;
+    letter-spacing: 4px;
 }
 .c-about__article h2,
 .c-about__article p {
     text-align: center;
     line-height: 200%;
+}
+.c-about__article p {
+    color: $gray-font-color;
 }
 .c-about__icon {
     padding-bottom: 15px;
