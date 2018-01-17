@@ -53,3 +53,31 @@
     width: 100%;
     left: 0;
 }
+.c-header__list form {
+    width: 60%;
+    float: right;
+    margin-right: 25px;
+}
+.c-header__list input[type=text] {
+    width: 40px;
+    height: 40px;
+    background: #ff6347;
+    font-size: 10pt;
+    float: left;
+    padding-left: 38px;
+    border-radius: 50%;
+}
+.c-header__list input[type=text]::placeholder {
+    color: #fff;
+}
+.c-header__list input[type=text]:hover {
+    width: 95%;
+    transition: width .55s ease;
+    border-radius: 5px;
+}
+.c-header__list img {
+    position: absolute;
+    top: 67px;
+    right: 349px;
+    z-index: 1;
+}
