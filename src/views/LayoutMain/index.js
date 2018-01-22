@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import Main from 'views/Main';
 import About from 'views/About';
 import Work from 'views/Work';
-import Testimonial from 'views/Testimonial';
 import Shop from 'views/Shop';
+import Testimonial from 'views/Testimonial';
 import Contact from 'views/Contact';
 import Footer from 'views/Footer';
 import './LayoutMain.scss';
@@ -24,7 +24,6 @@ class LayoutMain extends Component {
                 <div id="back-top">
                   <a href="#" id="up">TOP</a>
                 </div>
-
             </div>
         );
     }

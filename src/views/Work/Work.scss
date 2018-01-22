@@ -67,3 +67,9 @@ button:hover {
 .c-work__item--background {
     background: $about-bg-color;
 }
+.closed {
+    display: none;
+}
+.opened {
+    display: block;
+}
