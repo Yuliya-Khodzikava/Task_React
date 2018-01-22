@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Additional.scss';
 
 class Additional extends Component {
 

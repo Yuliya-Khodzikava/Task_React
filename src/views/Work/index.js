@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Work.scss';
-
 import Additional from '../Additional/index.js';
 
 class Work extends Component {
