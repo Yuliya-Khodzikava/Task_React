@@ -1,0 +1,23 @@
+@import '~styles/variables.scss';
+@import '~styles/styles.scss';
+
+.c-work__button {
+    height: 90px;
+    background: #333333;
+    padding-top: 55px;
+        button {
+            width: 300px;
+            height: 40px;
+            background: none;
+            border: 1px solid #666666;
+            color: $white-font-color;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: $button-font-size;
+            cursor: pointer;
+        }
+}
+button:hover {
+    background: $orange-button-background-color;
+    border: none;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Additional.scss';
+import './Work_Additional.scss';
 
 class Additional extends Component {
 
