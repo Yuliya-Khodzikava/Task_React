@@ -30,9 +30,7 @@ class Work extends Component {
 
                 <Preview />
 
-                <div onClick={this.clickHandler}>
-                    <Button />
-                </div>
+                <Button callback={this.clickHandler} />
 
                 {isOpened ? <Additional /> : null }
 
