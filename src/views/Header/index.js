@@ -8,9 +8,9 @@ class Header extends Component {
     render() {
 
         const Header = styled.div`
-                width: 1025px;
-                height: 40px;
-                background-color: #fff;
+            width: 1025px;
+            height: 40px;
+            background-color: #fff;
         `;
         const ButtonsContainer = styled.div`
             float: right;
