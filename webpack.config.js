@@ -5,6 +5,9 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const config = {
     entry: path.join(__dirname, 'src', 'index.js'),
+    node: {
+      fs: "empty"
+    },
     output: {
     		path: path.resolve(__dirname, 'dist'),
     		filename: 'bundle.js',
