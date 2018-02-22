@@ -38,6 +38,7 @@
     "sass-extract-js": "^0.3.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1",
+    "styled-components-theme": "^1.0.5",
     "url-loader": "^0.6.2",
     "webpack-dev-server": "^2.9.7"
   }

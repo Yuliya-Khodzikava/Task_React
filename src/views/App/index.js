@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import styled from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
+
+import variables from '../../resources/styles/variables';
+import theme from '../../resources/styles/theme';
 
 import Header from 'views/Header';
 import LegendSizeTopPanel from 'views/LegendSizeTopPanel';
@@ -7,17 +10,19 @@ import LegendSizeTopPanel from 'views/LegendSizeTopPanel';
 const Wrapper = styled.div`
     width: 1025px;
     height: 40px;
-    background-color: $white-bg-color;
+    background-color: ${theme.white_bg_color};
     margin: 0 auto;
 `;
 
 class App extends Component {
     render() {
         return (
-            <Wrapper>
-                <Header />
-                <LegendSizeTopPanel />
-            </Wrapper>
+            <ThemeProvider theme={variables}>
+                <Wrapper>
+                    <Header />
+                    <LegendSizeTopPanel />
+                </Wrapper>
+            </ThemeProvider>
         );
     }
 }
