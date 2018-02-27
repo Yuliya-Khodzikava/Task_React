@@ -1,11 +1,18 @@
 const variables = {
-    white_bg_color: '#fff',
-    header_button_bg_color: '#e5e5e5',
-    header_button3_bg_color: '#4a90e2',
-    header_button_font_color: '#545454',
-    header_button_font_size: '15px',
-    header_button3_font_color: '#fff',
-    legendSizeTopPanel_bg_color: '#f3f3f3'
+    gray_color: '#f0f0f0',
+    green_color: '#00b300',
+    light_gray_color: '#e6e6e6',
+    dark_gray_color: '#cccccc',
+    blue_color: '#0080ff',
+    white_color: '#fff',
+    search_header_font_size: '20px',
+    search_input_font_size: '12px',
+    file_font_size: '12px',
+    custom_header_font_size: '22px',
+    tools_header_font_size: '18px',
+    list_item_font_size: '10px',
+    footer_header_font_size: '18px',
+    footer_table_font_size: '13px'
 }
 
 export default variables;

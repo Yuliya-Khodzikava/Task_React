@@ -2,27 +2,52 @@ import React, { Component } from 'react';
 import styled, { ThemeProvider } from "styled-components";
 
 import variables from '../../resources/styles/variables';
-import theme from '../../resources/styles/theme';
 
-import Header from 'views/Header';
-import LegendSizeTopPanel from 'views/LegendSizeTopPanel';
+import ItemsList from 'views/ItemsList';
+import Footer from 'views/Footer';
 
 const Wrapper = styled.div`
-    width: 1025px;
-    height: 40px;
-    background-color: ${theme.white_bg_color};
-    margin: 0 auto;
 `;
 
+const propsValues = {
+    items: [
+        "Alltistart (ATS Soft Starters)",
+        "Altivar",
+        "Harmony Pushbuttons",
+        "Industrial PLCs",
+        "Colonnes de Signalisation",
+        "Harmony XVM",
+        "Preventa",
+        "Zelio",
+        "Logic",
+        "Industrial Modicon",
+        "Time",
+        "XVM",
+        "Monolithic",
+        "Relais",
+        "Switches",
+        "Magelis",
+        "Timing",
+        "Tower light",
+        "Pression",
+        "30mm Pushbuttons",
+        "Convertisseur",
+        "Photoelectric",
+        "Sensors",
+        "Architectures"
+    ]
+};
+
 class App extends Component {
+
     render() {
         return (
-            <ThemeProvider theme={variables}>
-                <Wrapper>
-                    <Header />
-                    <LegendSizeTopPanel />
-                </Wrapper>
-            </ThemeProvider>
+            <Wrapper>
+
+                <ItemsList data={propsValues}/>
+                <Footer />
+
+            </Wrapper>
         );
     }
 }
