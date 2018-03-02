@@ -27,27 +27,17 @@ class Footer extends Component {
         return(
             <FooterItems>
                 <FooterHeader>Residential and Small Business</FooterHeader>
+
                 <FooterTable>
-                    <FooterTableRow>
-                        <FooterTableData> > Electrical Car Charging</FooterTableData>
-                        <FooterTableData> > Installation Material and System</FooterTableData>
-                        <FooterTableData> > Installation Material and System</FooterTableData>
-                    </FooterTableRow>
-                    <FooterTableRow>
-                        <FooterTableData> > Electrical Protection and Control</FooterTableData>
-                        <FooterTableData> > Light Switches and Electrical Sockets</FooterTableData>
-                        <FooterTableData> > Home Automation</FooterTableData>
-                    </FooterTableRow>
-                    <FooterTableRow>
-                        <FooterTableData> > Emergency Lighting</FooterTableData>
-                        <FooterTableData> > Network Infrastructure and Connectivity</FooterTableData>
-                        <FooterTableData> > Home Security</FooterTableData>
-                    </FooterTableRow>
-                    <FooterTableRow>
-                        <FooterTableData></FooterTableData>
-                        <FooterTableData> > Uninterruptible Power Supply (UPS)</FooterTableData>
-                        <FooterTableData></FooterTableData>
-                    </FooterTableRow>
+                    {
+                        this.props.rows.map(row => {
+                            return (
+                                <FooterTableRow>
+                                    {row.map(element => <FooterTableData>{element}</FooterTableData>)}
+                                </FooterTableRow>
+                            )
+                        })
+                    }
                 </FooterTable>
             </FooterItems>
         )

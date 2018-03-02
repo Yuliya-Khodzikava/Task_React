@@ -83,27 +83,24 @@ const ListItem = styled.li`
         }
 `;
 
-class Item extends Component {
-    render() {
-        return <ListItem>{this.props.name}</ListItem>;
-    }
-}
-
 class ItemsList extends Component {
     constructor(props){
         super(props);
-        this.state = { items: this.props.data.items};
+        this.state = {
+            items: this.props.products.items,
+            inputValue: ''
+        };
 
-        this.filterList = this.filterList.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
-    // фильтрация списка
-    filterList(e){
-        var filteredList = this.props.data.items.filter(function(item){
-            return item.toLowerCase().search(e.target.value.toLowerCase())!== -1;
+    handleChange(event){
+        var filteredList = this.props.products.items.filter((item) => {
+            return item.toLowerCase().search(event.target.value.toLowerCase())!== -1;
         });
-        // обновление состояния
-        this.setState({items: filteredList});
+
+        this.setState({items: filteredList, inputValue: event.target.value});
     }
+
     render() {
         return (
             <div>
@@ -111,7 +108,7 @@ class ItemsList extends Component {
                     <Header>Welcome<br/> to Schneider Customization Tool</Header>
                     <Search>
                         <SearchHeader>Retrieve your customization</SearchHeader>
-                        <Input placeholder='Enter existing customization code' onChange={this.filterList}></Input>
+                        <Input value={this.state.inputValue} placeholder='Enter existing customization code' onChange={this.handleChange}></Input>
                         <Button>Go</Button>
                         <File>Or Import Customization File</File>
                     </Search>
@@ -121,8 +118,8 @@ class ItemsList extends Component {
                 <ToolsArea>
                     <ToolsList>
                         {
-                            this.state.items.map(function(item){
-                                return <Item key={item} name={item} />
+                            this.state.items.map((item) => {
+                              return <ListItem>{item}</ListItem>
                             })
                         }
                     </ToolsList>

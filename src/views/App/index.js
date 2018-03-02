@@ -9,7 +9,7 @@ import Footer from 'views/Footer';
 const Wrapper = styled.div`
 `;
 
-const propsValues = {
+const products = {
     items: [
         "Alltistart (ATS Soft Starters)",
         "Altivar",
@@ -37,6 +37,12 @@ const propsValues = {
         "Architectures"
     ]
 };
+const rows = [
+    [' > Electrical Car Charging', ' > Installation Material and System', ' > Installation Material and System'],
+    [' > Electrical Protection and Control', ' > Light Switches and Electrical Sockets', ' > Home Automation'],
+    [' > Emergency Lighting', ' > Network Infrastructure and Connectivity', ' > Home Security'],
+    ['', ' > Uninterruptible Power Supply (UPS)', '']
+];
 
 class App extends Component {
 
@@ -44,8 +50,8 @@ class App extends Component {
         return (
             <Wrapper>
 
-                <ItemsList data={propsValues}/>
-                <Footer />
+                <ItemsList products={products} />
+                <Footer rows={rows}/>
 
             </Wrapper>
         );
