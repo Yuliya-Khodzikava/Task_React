@@ -118,9 +118,7 @@ class ItemsList extends Component {
                 <ToolsArea>
                     <ToolsList>
                         {
-                            this.state.items.map((item) => {
-                              return <ListItem>{item}</ListItem>
-                            })
+                            this.state.items.map(item => <ListItem>{item}</ListItem>)
                         }
                     </ToolsList>
                 </ToolsArea>
