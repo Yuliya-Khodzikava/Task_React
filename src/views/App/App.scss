@@ -1,9 +1,11 @@
 svg {
     background: lightblue;
 }
-text {
+text,
+textPath {
     font-size: 16px;
     font-family: Geneva, Arial, Helvetica, sans-serif;
+    letter-spacing: 1;
 }
 .push-text {
     font-size: 20px;

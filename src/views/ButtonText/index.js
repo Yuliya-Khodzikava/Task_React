@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 
+import LabelTextTop from 'views/LabelTextTop';
+import LabelTextRight from 'views/LabelTextRight';
+import LabelTextLeft from 'views/LabelTextLeft';
+
 class ButtonText extends Component {
 
     render() {
         return (
             <React.Fragment>
-                <text x="455" y="293" fill="#fbfbfb">label</text>
-                <text x="558" y="360" fill="#fbfbfb" writingMode="tb">label</text>
-                <text x="387" y="390" fill="#fbfbfb" transform="rotate(270,387,390)">label</text>
+
+                <LabelTextTop />
+                <LabelTextRight />
+                <LabelTextLeft />
+
                 <text className="push-text" x="443" y="382" fill="#fbfbfb">PUSH</text>
             </React.Fragment>
         );
