@@ -4,17 +4,78 @@ import './App.scss';
 
 import WholeSvg from 'views/WholeSvg';
 import WholeSvg_2 from 'views/WholeSvg_2';
+import WholeSvg_3 from 'views/WholeSvg_3';
+import WholeSvg_4 from 'views/WholeSvg_4';
 
 class App extends Component {
+        constructor() {
+            super();
+                this.state = {
+                    x0: 0,
+                    y0: 0,
+                    vx: 500,
+                    vy: 500
+            };
+            this.enlargeHandleClick = this.enlargeHandleClick.bind(this);
+            this.reduceHandleClick = this.reduceHandleClick.bind(this);
+            this.toLeftHandleClick = this.toLeftHandleClick.bind(this);
+            this.toRightHandleClick = this.toRightHandleClick.bind(this);
+        }
+        enlargeHandleClick(){
+            this.setState({
+                x0: this.state.x0 + 10,
+                y0: this.state.y0 + 10,
+                vx: this.state.vx - 10,
+                vy: this.state.vy - 10,
+                whole_value: this.state.x0 + " " + this.state.y0 + " " + this.state.vx + " " + this.state.vy
+            })
+        }
+        reduceHandleClick(){
+            this.setState({
+                x0: this.state.x0 - 10,
+                y0: this.state.y0 - 10,
+                vx: this.state.vx + 10,
+                vy: this.state.vy + 10,
+                whole_value: this.state.x0 + " " + this.state.y0 + " " + this.state.vx + " " + this.state.vy
+            })
+        }
+        toLeftHandleClick(){
+            this.setState({
+                x0: this.state.x0 - 10,
+                y0: this.state.y0,
+                vx: this.state.vx - 10,
+                vy: this.state.vy,
+                whole_value: this.state.x0 + " " + this.state.y0 + " " + this.state.vx + " " + this.state.vy
+            })
+        }
+        toRightHandleClick(){
+            this.setState({
+                x0: this.state.x0 + 10,
+                y0: this.state.y0,
+                vx: this.state.vx + 10,
+                vy: this.state.vy,
+                whole_value: this.state.x0 + " " + this.state.y0 + " " + this.state.vx + " " + this.state.vy
+            })
+        }
 
     render() {
         return (
-            <svg width="100%" height="100%">
+            <React.Fragment>
 
-                <WholeSvg />
-                <WholeSvg_2 />
+                <svg width="100%" height="100%" viewBox={this.state.whole_value}>
+                    <WholeSvg />
+                    <WholeSvg_2 />
+                    <WholeSvg_3 />
+                    <WholeSvg_4 />
+                </svg>
 
-            </svg>
+                <button onClick={this.reduceHandleClick}>&#8722;</button>
+                <button onClick={this.enlargeHandleClick}>&#43;</button>
+
+                <button onClick={this.toLeftHandleClick}>&#8592;</button>
+                <button onClick={this.toRightHandleClick}>&#8594;</button>
+
+            </React.Fragment>
         );
     }
 }
