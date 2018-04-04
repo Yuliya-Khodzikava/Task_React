@@ -6,6 +6,10 @@ import WholeSvg from 'views/WholeSvg';
 import WholeSvg_2 from 'views/WholeSvg_2';
 import WholeSvg_3 from 'views/WholeSvg_3';
 import WholeSvg_4 from 'views/WholeSvg_4';
+import WholeSvg_5 from 'views/WholeSvg_5';
+import WholeSvg_6 from 'views/WholeSvg_6';
+import WholeSvg_7 from 'views/WholeSvg_7';
+import WholeSvg_8 from 'views/WholeSvg_8';
 
 class App extends Component {
         constructor() {
@@ -67,6 +71,10 @@ class App extends Component {
                     <WholeSvg_2 />
                     <WholeSvg_3 />
                     <WholeSvg_4 />
+                    <WholeSvg_5 />
+                    <WholeSvg_6 />
+                    <WholeSvg_7 />
+                    <WholeSvg_8 />
                 </svg>
 
                 <button onClick={this.reduceHandleClick}>&#8722;</button>

@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
+import styled from "styled-components";
+
+import variables from '../../resources/styles/variables';
+
+const LabelRect3 = styled.rect`
+    width: 34;
+    height: 11;
+    fill: ${variables.white_label_rect_fill};
+    stroke: ${variables.label_rect_stroke};
+    stroke-width: 1;
+    stroke-dasharray: 2 1;
+    stroke-dashoffset: 1;
+`;
 
 class RectItem3 extends Component {
 
     render() {
         return (
-            <React.Fragment>
-                <rect x="58" y="144" width="34" height="11" fill="#fff" stroke="#626469" strokeWidth="1" strokeDasharray="2 1" strokeDashoffset="1"/>
-            </React.Fragment>
+            <LabelRect3 x="58" y="144" />
         );
     }
 }

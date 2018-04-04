@@ -2,17 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801f74e9-fea3-4854-b565-ff9c5ca99887" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/CircleItem3/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/CircleItem4/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/LabelText3/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/LabelText4/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/RectItem3/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/RectItems4/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/WholeSvg_3/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/WholeSvg_4/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/CircleItem5/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/CircleItem6/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/CircleItem7/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/CircleItem8/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/WholeSvg_5/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/WholeSvg_6/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/WholeSvg_7/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/WholeSvg_8/index.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/views/App/App.scss" afterPath="$PROJECT_DIR$/src/views/App/App.scss" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/resources/styles/variables.js" afterPath="$PROJECT_DIR$/src/resources/styles/variables.js" />
       <change beforePath="$PROJECT_DIR$/src/views/App/index.js" afterPath="$PROJECT_DIR$/src/views/App/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/CircleItem/index.js" afterPath="$PROJECT_DIR$/src/views/CircleItem/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/CircleItem2/index.js" afterPath="$PROJECT_DIR$/src/views/CircleItem2/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/CircleItem3/index.js" afterPath="$PROJECT_DIR$/src/views/CircleItem3/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/CircleItem4/index.js" afterPath="$PROJECT_DIR$/src/views/CircleItem4/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/LabelText/index.js" afterPath="$PROJECT_DIR$/src/views/LabelText/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/LabelText2/index.js" afterPath="$PROJECT_DIR$/src/views/LabelText2/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/LabelText3/index.js" afterPath="$PROJECT_DIR$/src/views/LabelText3/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/LabelText4/index.js" afterPath="$PROJECT_DIR$/src/views/LabelText4/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/RectItem3/index.js" afterPath="$PROJECT_DIR$/src/views/RectItem3/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/RectItems/index.js" afterPath="$PROJECT_DIR$/src/views/RectItems/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/RectItems2/index.js" afterPath="$PROJECT_DIR$/src/views/RectItems2/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/RectItems4/index.js" afterPath="$PROJECT_DIR$/src/views/RectItems4/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/RectMain/index.js" afterPath="$PROJECT_DIR$/src/views/RectMain/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/RectMain2/index.js" afterPath="$PROJECT_DIR$/src/views/RectMain2/index.js" />
     </list>
     <ignored path="newProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +47,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/App/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+            <state relative-caret-position="237">
+              <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/styles/variables.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/CircleItem7/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/CircleItem8/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="868">
+              <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -59,14 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/views/LegendSizeTopPanel/LegendSizeTopPanel.scss" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/resources/styles/colors.js" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
-        <option value="$PROJECT_DIR$/src/views/Header/colors.js" />
-        <option value="$PROJECT_DIR$/src/views/Header/theme.js" />
-        <option value="$PROJECT_DIR$/src/resources/styles/theme.js" />
         <option value="$PROJECT_DIR$/src/resources/styles/variables.scss" />
         <option value="$PROJECT_DIR$/src/views/Header/index.js" />
         <option value="$PROJECT_DIR$/src/views/Item/index.js" />
@@ -76,7 +114,6 @@
         <option value="$PROJECT_DIR$/src/views/App/style.css" />
         <option value="$PROJECT_DIR$/src/views/Footer/index.js" />
         <option value="$PROJECT_DIR$/src/views/App/style.scss" />
-        <option value="$PROJECT_DIR$/src/resources/styles/variables.js" />
         <option value="$PROJECT_DIR$/src/views/ItemsList/index.js" />
         <option value="$PROJECT_DIR$/src/views/BottomCircle/index.js" />
         <option value="$PROJECT_DIR$/src/views/CircleDarkBorder/index.js" />
@@ -90,32 +127,41 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/views/CircleOrange/index.js" />
         <option value="$PROJECT_DIR$/src/views/Test_Circle/index.js" />
-        <option value="$PROJECT_DIR$/src/views/LabelText/index.js" />
-        <option value="$PROJECT_DIR$/src/views/CircleItem/index.js" />
-        <option value="$PROJECT_DIR$/src/views/RectMain/index.js" />
-        <option value="$PROJECT_DIR$/src/views/WholeSvg/index.js" />
         <option value="$PROJECT_DIR$/src/views/WholeSvg_2/index.js" />
+        <option value="$PROJECT_DIR$/src/views/App/App.scss" />
+        <option value="$PROJECT_DIR$/src/views/WholeSvg_3/index.js" />
+        <option value="$PROJECT_DIR$/src/views/WholeSvg_4/index.js" />
+        <option value="$PROJECT_DIR$/src/views/WholeSvg_5/index.js" />
+        <option value="$PROJECT_DIR$/src/views/WholeSvg_6/index.js" />
+        <option value="$PROJECT_DIR$/src/views/WholeSvg_7/index.js" />
+        <option value="$PROJECT_DIR$/src/views/WholeSvg_8/index.js" />
+        <option value="$PROJECT_DIR$/src/views/App/index.js" />
+        <option value="$PROJECT_DIR$/src/views/WholeSvg/index.js" />
+        <option value="$PROJECT_DIR$/src/views/CircleItem/index.js" />
         <option value="$PROJECT_DIR$/src/views/RectItems/index.js" />
+        <option value="$PROJECT_DIR$/src/views/RectMain/index.js" />
+        <option value="$PROJECT_DIR$/src/views/LabelText/index.js" />
         <option value="$PROJECT_DIR$/src/views/RectMain2/index.js" />
         <option value="$PROJECT_DIR$/src/views/CircleItem2/index.js" />
-        <option value="$PROJECT_DIR$/src/views/LabelText2/index.js" />
         <option value="$PROJECT_DIR$/src/views/RectItems2/index.js" />
-        <option value="$PROJECT_DIR$/src/views/App/App.scss" />
-        <option value="$PROJECT_DIR$/src/views/RectItem3/index.js" />
-        <option value="$PROJECT_DIR$/src/views/WholeSvg_3/index.js" />
-        <option value="$PROJECT_DIR$/src/views/LabelText3/index.js" />
+        <option value="$PROJECT_DIR$/src/views/LabelText2/index.js" />
         <option value="$PROJECT_DIR$/src/views/CircleItem3/index.js" />
-        <option value="$PROJECT_DIR$/src/views/App/index.js" />
-        <option value="$PROJECT_DIR$/src/views/WholeSvg_4/index.js" />
+        <option value="$PROJECT_DIR$/src/views/LabelText3/index.js" />
+        <option value="$PROJECT_DIR$/src/views/RectItem3/index.js" />
+        <option value="$PROJECT_DIR$/src/views/CircleItem4/index.js" />
         <option value="$PROJECT_DIR$/src/views/RectItems4/index.js" />
         <option value="$PROJECT_DIR$/src/views/LabelText4/index.js" />
-        <option value="$PROJECT_DIR$/src/views/CircleItem4/index.js" />
+        <option value="$PROJECT_DIR$/src/resources/styles/variables.js" />
+        <option value="$PROJECT_DIR$/src/views/CircleItem5/index.js" />
+        <option value="$PROJECT_DIR$/src/views/CircleItem6/index.js" />
+        <option value="$PROJECT_DIR$/src/views/CircleItem7/index.js" />
+        <option value="$PROJECT_DIR$/src/views/CircleItem8/index.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2794" />
-    <option name="width" value="1900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2591" />
+    <option name="width" value="1600" />
     <option name="height" value="1309" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -155,6 +201,19 @@
               <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SVG_Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SVG_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SVG_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -163,6 +222,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SVG_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="CircleItem7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SVG_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="CircleItem8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,19 +250,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\SVG_items\SVG_Project\src\views" />
-      <recent name="F:\newProject\src\views" />
-      <recent name="F:\newProject\src\views\App" />
-      <recent name="D:\newProject\public" />
-      <recent name="D:\newProject\src\resources\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\SVG_items\SVG_Project\src\views" />
       <recent name="D:\newProject\src\resources\styles" />
       <recent name="D:\newProject\src\views\Header" />
       <recent name="D:\newProject\src\views\Main" />
       <recent name="D:\newProject\src\views" />
-      <recent name="D:\newProject\src\resources\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SVG_items\SVG_Project\src\views" />
+      <recent name="F:\SVG_items\SVG_Project\src" />
+      <recent name="F:\newProject\src\views" />
+      <recent name="F:\newProject\src\views\App" />
+      <recent name="D:\newProject\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -439,11 +512,19 @@
       <option name="project" value="LOCAL" />
       <updated>1522326650600</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="implementation of the 3d and the 4th svg icons">
+      <created>1522403964531</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1522403964531</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2794" y="0" width="1900" height="1309" extended-state="0" />
+    <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -457,7 +538,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19405594" sideWeight="0.75243396" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14144737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11443211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -503,6 +584,9 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -524,63 +608,14 @@
     <MESSAGE value="generation of values in attribute d in path tag" />
     <MESSAGE value="implementation of svg icon" />
     <MESSAGE value="implementation of the 2nd svg icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation of the 2nd svg icon" />
+    <MESSAGE value="implementation of the 3d and the 4th svg icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation of the 3d and the 4th svg icons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/babel-loader/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-dom/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-dom/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18647" column="398" lean-forward="false" selection-start-line="18647" selection-start-column="395" selection-end-line="18647" selection-end-column="398" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/LegendSizeTopPanel/LegendSizeTopPanel.scss" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -637,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/styles/variables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/LabelTextLeft/index.js" />
     <entry file="file://$PROJECT_DIR$/src/views/ButtonTextRect/index.js" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
@@ -658,10 +686,46 @@
     <entry file="file://$PROJECT_DIR$/src/views/LabelTextTop/index.js" />
     <entry file="file://$PROJECT_DIR$/src/views/Test_Circle/index.js" />
     <entry file="file://$PROJECT_DIR$/src/views/CircleLightBorder/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/views/App/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/WholeSvg_4/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/WholeSvg_6/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/WholeSvg_7/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/WholeSvg_8/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/WholeSvg/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -673,58 +737,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/CircleItem2/index.js">
+    <entry file="file://$PROJECT_DIR$/src/views/RectMain/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/App/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/CircleItem/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/RectMain/index.js">
+    <entry file="file://$PROJECT_DIR$/src/views/LabelText/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/RectItems/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/LabelText3/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/RectItem3/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="149" lean-forward="false" selection-start-line="7" selection-start-column="149" selection-end-line="7" selection-end-column="149" />
+        <state relative-caret-position="63">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -737,50 +769,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/CircleItem2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/RectMain2/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/CircleItem3/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/RectItems2/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="132" lean-forward="false" selection-start-line="8" selection-start-column="132" selection-end-line="8" selection-end-column="132" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/LabelText2/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/LabelText/index.js">
+    <entry file="file://$PROJECT_DIR$/src/views/RectItems2/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/LabelText4/index.js">
+    <entry file="file://$PROJECT_DIR$/src/views/CircleItem3/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="105">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/App/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/RectItem3/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -788,31 +828,87 @@
     <entry file="file://$PROJECT_DIR$/src/views/RectItems4/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LabelText3/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LabelText4/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/WholeSvg_5/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/RectItems/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/CircleItem4/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="126">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/WholeSvg_4/index.js">
+    <entry file="file://$PROJECT_DIR$/src/views/CircleItem5/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/App/index.js">
+    <entry file="file://$PROJECT_DIR$/src/views/CircleItem6/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        <state relative-caret-position="-168">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/styles/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/CircleItem7/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/CircleItem8/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
           <folding />
         </state>
       </provider>
