@@ -2,14 +2,16 @@ import React, { Component } from 'react';
 
 import './App.scss';
 
-import WholeSvg from 'views/WholeSvg';
-import WholeSvg_2 from 'views/WholeSvg_2';
-import WholeSvg_3 from 'views/WholeSvg_3';
-import WholeSvg_4 from 'views/WholeSvg_4';
-import WholeSvg_5 from 'views/WholeSvg_5';
-import WholeSvg_6 from 'views/WholeSvg_6';
-import WholeSvg_7 from 'views/WholeSvg_7';
-import WholeSvg_8 from 'views/WholeSvg_8';
+import WholeSvg from 'views/SVGImage_1/WholeSvg';
+import WholeSvg_2 from 'views/SVGImage_2/WholeSvg_2';
+import WholeSvg_3 from 'views/SVGImage_3/WholeSvg_3';
+import WholeSvg_4 from 'views/SVGImage_4/WholeSvg_4';
+import WholeSvg_5 from 'views/SVGImage_5/WholeSvg_5';
+import WholeSvg_6 from 'views/SVGImage_6/WholeSvg_6';
+import WholeSvg_7 from 'views/SVGImage_7/WholeSvg_7';
+import WholeSvg_8 from 'views/SVGImage_8/WholeSvg_8';
+import WholeLabelTypeText from 'views/LabelTypeText_SVG/WholeLabelTypeText';
+import WholeLabelTypeImage from 'views/LabelTypeImage_SVG/WholeLabelTypeImage';
 
 class App extends Component {
         constructor() {
@@ -75,6 +77,8 @@ class App extends Component {
                     <WholeSvg_6 />
                     <WholeSvg_7 />
                     <WholeSvg_8 />
+                    <WholeLabelTypeText />
+                    <WholeLabelTypeImage />
                 </svg>
 
                 <button onClick={this.reduceHandleClick}>&#8722;</button>
