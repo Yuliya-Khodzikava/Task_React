@@ -20,10 +20,8 @@ class RectItems extends Component {
     render() {
         return (
             <React.Fragment>
-
                 <LabelRect2 x="58" y="53" />
                 <LabelRect x="58" y="85" />
-
             </React.Fragment>
         );
     }

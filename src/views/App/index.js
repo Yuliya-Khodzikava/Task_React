@@ -12,6 +12,7 @@ import WholeSvg_7 from 'views/SVGImage_7/WholeSvg_7';
 import WholeSvg_8 from 'views/SVGImage_8/WholeSvg_8';
 import WholeLabelTypeText from 'views/LabelTypeText_SVG/WholeLabelTypeText';
 import WholeLabelTypeImage from 'views/LabelTypeImage_SVG/WholeLabelTypeImage';
+import HoleDiameterMain from 'views/HoleDiameter/HoleDiameterMain';
 
 class App extends Component {
         constructor() {
@@ -79,6 +80,7 @@ class App extends Component {
                     <WholeSvg_8 />
                     <WholeLabelTypeText />
                     <WholeLabelTypeImage />
+                    <HoleDiameterMain />
                 </svg>
 
                 <button onClick={this.reduceHandleClick}>&#8722;</button>

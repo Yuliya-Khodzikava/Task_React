@@ -5,6 +5,7 @@ import variables from '../../../resources/styles/variables';
 
 const BlackCircle2 = styled.circle`
     fill: ${variables.black_circle_fill};
+    stroke: none;
 `;
 
 class CircleItem2 extends Component {

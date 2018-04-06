@@ -5,6 +5,7 @@ import variables from '../../../resources/styles/variables';
 
 const TextRect = styled.text`
     fill: ${variables.text_fill};
+    stroke: none;
 `;
 
 class LabelText extends Component {
