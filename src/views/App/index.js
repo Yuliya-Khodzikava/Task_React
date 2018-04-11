@@ -2,16 +2,20 @@ import React, { Component } from 'react';
 
 //import './App.scss';
 
-import Title from 'views/Title';
-import Article from 'views/Article';
+import GreetingText from 'views/GreetingText';
+import BeautifulDay from 'views/BeautifulDay';
+import Question from 'views/Question';
+import SomeValue from 'views/SomeValue';
 
 class App extends React.Component {
 
     render() {
         return (
             <React.Fragment>
-                <Title />
-                {Article}
+                <GreetingText />
+                {BeautifulDay}
+                {Question}
+                <SomeValue />
             </React.Fragment>
         );
     }
