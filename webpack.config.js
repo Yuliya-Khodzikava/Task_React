@@ -86,7 +86,7 @@ const config = {
                 })
             },
             {
-                test: /\.(jpe?g|png|gif|svg)$/i,
+                test: /\.(jpe?g|png|gif|svg|jpg)$/i,
                      use: [
                          'url-loader?limit=10000',
                          'img-loader'

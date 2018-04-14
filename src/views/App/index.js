@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 
-//import './App.scss';
+import './App.scss';
 
-import GreetingText from 'views/GreetingText';
-import BeautifulDay from 'views/BeautifulDay';
-import Question from 'views/Question';
-import SomeValue from 'views/SomeValue';
+import MainHeadSearch from 'views/MainHeadSearch';
+import SearchAdditionalItems from 'views/SearchAdditionalItems';
+import ResultsBody from 'views/ResultsBody';
+import Footer from 'views/Footer';
 
 class App extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
-                <GreetingText />
-                {BeautifulDay}
-                {Question}
-                <SomeValue />
-            </React.Fragment>
+            <div className="app">
+                <MainHeadSearch />
+                <SearchAdditionalItems />
+                <ResultsBody />
+                <Footer />
+            </div>
         );
     }
 }

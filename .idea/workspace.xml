@@ -2,16 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801f74e9-fea3-4854-b565-ff9c5ca99887" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/Question/Question.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/Question/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SomeValue/SomeValue.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SomeValue/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/resources/img/img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/Footer/Footer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/Footer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/MainHeadSearch/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/ResultsBody/ResultsBody.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/ResultsBody/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/ResultsCount/ResultsCount.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/ResultsCount/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/ResultsFilter/ResultsFilter.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/ResultsFilter/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SearchAdditionalItems/SearchAdditionalItems.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SearchAdditionalItems/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SearchButton/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SearchFilter/SearchFilter.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SearchFilter/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SearchItems/SearchItems.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SearchItems/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SearchText/SearchText.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/SearchText/index.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/views/App/App.scss" afterPath="$PROJECT_DIR$/src/views/App/App.scss" />
       <change beforePath="$PROJECT_DIR$/src/views/App/index.js" afterPath="$PROJECT_DIR$/src/views/App/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/views/Article/Article.scss" afterPath="$PROJECT_DIR$/src/views/BeautifulDay/BeautifulDay.scss" />
-      <change beforePath="$PROJECT_DIR$/src/views/Article/index.js" afterPath="$PROJECT_DIR$/src/views/BeautifulDay/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/views/Title/Title.scss" afterPath="$PROJECT_DIR$/src/views/GreetingText/GreetingText.scss" />
-      <change beforePath="$PROJECT_DIR$/src/views/Title/index.js" afterPath="$PROJECT_DIR$/src/views/GreetingText/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/BeautifulDay/BeautifulDay.scss" afterPath="$PROJECT_DIR$/src/views/Header/Header.scss" />
+      <change beforePath="$PROJECT_DIR$/src/views/BeautifulDay/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/views/GreetingText/GreetingText.scss" afterPath="$PROJECT_DIR$/src/views/MainHeadSearch/MainHeadSearch.scss" />
+      <change beforePath="$PROJECT_DIR$/src/views/GreetingText/index.js" afterPath="$PROJECT_DIR$/src/views/Header/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/views/Question/Question.scss" afterPath="$PROJECT_DIR$/src/views/SearchButton/SearchButton.scss" />
+      <change beforePath="$PROJECT_DIR$/src/views/Question/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/views/SomeValue/SomeValue.scss" afterPath="$PROJECT_DIR$/src/views/SearchField/SearchField.scss" />
+      <change beforePath="$PROJECT_DIR$/src/views/SomeValue/index.js" afterPath="$PROJECT_DIR$/src/views/SearchField/index.js" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="newProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,61 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/App/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/GreetingText/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/BeautifulDay/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Question/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/views/SomeValue/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="147">
+              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -108,37 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/views/SVGImage_6/LightGrayCircle2/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_6/CircleItem6/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_7/CircleItem7/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_7/WhiteCircle3/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_7/CircleWithBorder3/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_7/LightGrayCircle3/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_8/LightGrayCircle4/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_8/CircleWithBorder4/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_8/WhiteCircle4/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_8/CircleItem8/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_1/RectItems/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_1/WhiteRect/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_1/RectMain/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_2/RectMain2/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_2/WhiteRect2/index.js" />
-        <option value="$PROJECT_DIR$/src/views/App/App.scss" />
-        <option value="$PROJECT_DIR$/src/resources/styles/variables.js" />
-        <option value="$PROJECT_DIR$/src/views/HoleDiameter/HoleDiameter16/index.js" />
-        <option value="$PROJECT_DIR$/src/views/HoleDiameter/HoleDiameterMain/index.js" />
-        <option value="$PROJECT_DIR$/src/views/HoleDiameter/HoleDiameter22/index.js" />
-        <option value="$PROJECT_DIR$/src/views/HoleDiameter/HoleDiameter30/index.js" />
-        <option value="$PROJECT_DIR$/src/views/LabelTypeText_SVG/WholeLabelTypeText/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_1/RectTransparent/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_1/LabelText/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_1/CircleItem/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_1/WholeSvg/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_2/RectTransparent2/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_2/LabelText2/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_2/CircleItem2/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_5/CircleTransparent5/index.js" />
-        <option value="$PROJECT_DIR$/src/views/SVGImage_6/WholeSvg_6/index.js" />
         <option value="$PROJECT_DIR$/src/views/SVGImage_6/CircleTransparent6/index.js" />
         <option value="$PROJECT_DIR$/src/views/SVGImage_5/WholeSvg_5/index.js" />
         <option value="$PROJECT_DIR$/src/views/SVGImage_2/WholeSvg_2/index.js" />
@@ -155,18 +95,49 @@
         <option value="$PROJECT_DIR$/src/views/Article/index.js" />
         <option value="$PROJECT_DIR$/src/views/Info/index.js" />
         <option value="$PROJECT_DIR$/src/views/Info2/index.js" />
+        <option value="$PROJECT_DIR$/src/views/BeautifulDay/index.js" />
         <option value="$PROJECT_DIR$/src/views/Question/index.js" />
-        <option value="$PROJECT_DIR$/src/views/GreetingText/index.js" />
         <option value="$PROJECT_DIR$/src/views/SomeValue/index.js" />
+        <option value="$PROJECT_DIR$/src/views/GreetingText/index.js" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/views/SearchFilter/index.js" />
+        <option value="$PROJECT_DIR$/src/views/SearchButton/index.js" />
+        <option value="$PROJECT_DIR$/src/views/SearchField/index.js" />
+        <option value="$PROJECT_DIR$/src/views/SearchItems/SearchItems.scss" />
+        <option value="$PROJECT_DIR$/src/views/Header/index.js" />
+        <option value="$PROJECT_DIR$/src/views/App/App.scss" />
+        <option value="$PROJECT_DIR$/src/views/SearchButton/SearchButton.scss" />
+        <option value="$PROJECT_DIR$/src/views/SearchField/SearchField.scss" />
+        <option value="$PROJECT_DIR$/src/views/Header/Header.scss" />
+        <option value="$PROJECT_DIR$/src/views/SearchAdditionalItems/SearchItems.scss" />
+        <option value="$PROJECT_DIR$/src/views/SearchFilter/SearchFilter.scss" />
+        <option value="$PROJECT_DIR$/src/views/MainHeadSearch/index.js" />
+        <option value="$PROJECT_DIR$/src/views/ResultsCount/index.js" />
+        <option value="$PROJECT_DIR$/src/views/SearchAdditionalItems/SearchAdditionalItems.scss" />
+        <option value="$PROJECT_DIR$/src/views/MainHeadSearch/MainHeadSearch.scss" />
+        <option value="$PROJECT_DIR$/src/views/SearchAdditionalItems/index.js" />
+        <option value="$PROJECT_DIR$/src/views/ResultsFilter/index.js" />
+        <option value="$PROJECT_DIR$/src/views/MovieItem/index.js" />
+        <option value="$PROJECT_DIR$/src/views/MovieItem2/index.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/views/ResultsBody/ResultsBody.scss" />
+        <option value="$PROJECT_DIR$/src/views/ResultsBody/index.js" />
         <option value="$PROJECT_DIR$/src/views/App/index.js" />
+        <option value="$PROJECT_DIR$/src/views/Footer/index.js" />
+        <option value="$PROJECT_DIR$/src/views/Footer/Footer.scss" />
+        <option value="$PROJECT_DIR$/src/views/SearchItems/index.js" />
+        <option value="$PROJECT_DIR$/src/views/SearchText/SearchText.scss" />
+        <option value="$PROJECT_DIR$/src/views/SearchText/index.js" />
+        <option value="$PROJECT_DIR$/src/views/ResultsCount/ResultsCount.scss" />
+        <option value="$PROJECT_DIR$/src/views/ResultsFilter/ResultsFilter.scss" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2803" />
-    <option name="y" value="130" />
-    <option name="width" value="1544" />
-    <option name="height" value="1155" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="661" />
+    <option name="y" value="85" />
+    <option name="width" value="1671" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,8 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,14 +173,106 @@
               <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="Task_React" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="MainHeadSearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="ResultsBody" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="ResultsCount" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="ResultsFilter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchAdditionalItems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchButton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchField" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchFilter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchItems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_React" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchText" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,19 +281,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Mentoring ReactJS\Task_React\src\resources\img" />
+      <recent name="F:\Mentoring ReactJS\Task_React\src\views\ResultsBody" />
+      <recent name="F:\SVG_items\SVG_Project\src\views\SVGImage_8" />
+      <recent name="F:\SVG_items\SVG_Project\src\views\SVGImage_7" />
+      <recent name="F:\SVG_items\SVG_Project\src\views\SVGImage_6" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Mentoring ReactJS\Task_React\src\views" />
       <recent name="F:\SVG_items\SVG_Project\src\views\LabelTypeImage_SVG" />
       <recent name="F:\SVG_items\SVG_Project\src\views\CircleLabelType" />
       <recent name="F:\SVG_items\SVG_Project\src\views" />
       <recent name="F:\SVG_items\SVG_Project\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\SVG_items\SVG_Project\src\views\SVGImage_8" />
-      <recent name="F:\SVG_items\SVG_Project\src\views\SVGImage_7" />
-      <recent name="F:\SVG_items\SVG_Project\src\views\SVGImage_6" />
-      <recent name="F:\SVG_items\SVG_Project\src\views\SVGImage_5" />
-      <recent name="F:\SVG_items\SVG_Project\src\views\SVGImage_4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -524,11 +585,19 @@
       <option name="project" value="LOCAL" />
       <updated>1523378424167</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updates with several new components">
+      <created>1523441247321</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1523441247321</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2803" y="130" width="1544" height="1155" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -539,10 +608,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3050505" sideWeight="0.75243396" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17553794" sideWeight="0.75243396" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23092642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19172932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -618,40 +687,14 @@
     <MESSAGE value="icons implementation, update components" />
     <MESSAGE value="implementing of first component" />
     <MESSAGE value="updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates" />
+    <MESSAGE value="updates with several new components" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates with several new components" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_8/LightGrayCircle4/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_8/CircleWithBorder4/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_1/RectItems/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_2/WhiteRect2/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_2/RectItems2/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/LabelTypeImage_SVG/WholeLabelTypeImage/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/HoleDiameter/HoleDiameter22/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/HoleDiameter/HoleDiameter30/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/HoleDiameter/HoleDiameter16/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/HoleDiameter/HoleDiameterMain/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/LabelTypeText_SVG/LabelTypeTextItems/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/LabelTypeText_SVG/WholeLabelTypeText/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/resources/styles/variables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_1/CircleItem/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_1/LabelText/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_1/WhiteRect/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_1/RectTransparent/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_2/LabelText2/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_2/CircleItem2/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_2/RectTransparent2/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/SVGImage_5/CircleTransparent5/index.js" />
     <entry file="file://$PROJECT_DIR$/src/views/SVGImage_6/CircleTransparent6/index.js" />
     <entry file="file://$PROJECT_DIR$/src/views/SVGImage_2/WholeSvg_2/index.js" />
     <entry file="file://$PROJECT_DIR$/src/views/SVGImage_7/CircleTransparent7/index.js" />
@@ -674,30 +717,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -711,41 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/GreetingText/GreetingText.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/BeautifulDay/BeautifulDay.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/BeautifulDay/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/GreetingText/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="84">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -758,26 +754,242 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Question/index.js">
+    <entry file="file://$PROJECT_DIR$/src/views/App/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="53" lean-forward="false" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchField/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="118" lean-forward="false" selection-start-line="23" selection-start-column="118" selection-end-line="23" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchButton/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchButton/SearchButton.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Header/Header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchFilter/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/MainHeadSearch/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/MainHeadSearch/MainHeadSearch.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchItems/SearchItems.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchFilter/SearchFilter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchField/SearchField.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchAdditionalItems/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/MovieItem2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="110" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/MovieItem/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="88" column="47" lean-forward="false" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ResultsBody/ResultsBody.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchAdditionalItems/SearchAdditionalItems.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ResultsBody/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ResultsCount/ResultsCount.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ResultsFilter/ResultsFilter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ResultsFilter/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ResultsCount/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchText/SearchText.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchText/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SearchItems/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Footer/Footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Footer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/App/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/SomeValue/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="147">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,49 @@
+.c-results_body {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 43px;
+    content: "";
+    clear: both;
+    display: table;
+}
+.c-movie_item {
+    width: 280px;
+    height: 450px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    border: 2px solid #000;
+}
+.c-movie_item p {
+    margin: 0;
+}
+.c-movie_item img {
+    width: 280px;
+    height: 370px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+.c-movie_item_info {
+    width: 100%;
+}
+.c-movie_item_title {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 5px;
+    float: left;
+}
+.c-movie_item_info .c-movie_item_date {
+    float: right;
+    border: 1px solid gray;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+.c-movie_item_genre {
+    font-size: 12px;
+    content: "";
+    clear: both;
+    display: table;
+    padding-left: 5px;
+}
