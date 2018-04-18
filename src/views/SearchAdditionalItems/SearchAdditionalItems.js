@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 import './SearchAdditionalItems.scss';
 
-import ResultsCount from 'views/ResultsCount';
-import ResultsFilter from 'views/ResultsFilter';
+import ResultsCount from 'views/ResultsCount/ResultsCount.js';
+import ResultsFilter from 'views/ResultsFilter/ResultsFilter.js';
 
 class SearchAdditionalItems extends React.Component {
 
