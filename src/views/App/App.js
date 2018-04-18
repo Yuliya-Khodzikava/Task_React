@@ -24,7 +24,7 @@ class App extends React.Component {
             <div className="app">
                 <MainHeadSearch />
                 <SearchAdditionalItems />
-                <ResultsBody MovieItems={MovieItems} />
+                <ResultsBody items={MovieItems} />
                 <Footer />
             </div>
         );

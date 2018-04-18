@@ -7,7 +7,7 @@ class ResultsBody extends React.Component {
     render() {
         return (
             <div className="c-results_body">
-                {this.props.MovieItems.map( item =>
+                {this.props.items.map( item =>
                     <div className="c-movie_item">
                         <img src={item.img} alt="IMAGE"/>
                         <div className="c-movie_item_info">
