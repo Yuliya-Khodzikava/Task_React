@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './index.scss';
 
-import App from 'views/App/App.js';
+import App from 'views/App/App';
 
 ReactDOM.render(
     <App />,
