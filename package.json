@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "common": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --open --config webpack.dev.js",
-    "prod": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --open --config webpack.dev.config.js",
+    "prod": "webpack --config webpack.prod.config.js",
     "test": "jest"
   },
   "author": "",

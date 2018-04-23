@@ -10,9 +10,9 @@ const config = {
         fs: "empty"
     },
     output: {
-    		path: path.resolve(__dirname, 'dist'),
-    		filename: 'bundle.js',
-    	},
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'bundle.js',
+    },
     devtool: 'inline-source-map',
     plugins: [
         new CleanWebpackPlugin(['dist']),
@@ -89,10 +89,10 @@ const config = {
             },
             {
                 test: /\.(jpe?g|png|gif|svg|jpg)$/i,
-                     use: [
-                         'url-loader?limit=10000',
-                         'img-loader'
-                     ]
+                    use: [
+                        'url-loader?limit=10000',
+                        'img-loader'
+                    ]
             }
         ]
     }
