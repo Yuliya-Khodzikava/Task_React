@@ -4,6 +4,16 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
+const merge = require('webpack-merge');
+const common = require('./webpack.config.js');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
+ module.exports = merge(common, {
+   plugins: [
+     new UglifyJSPlugin()
+   ]
+ });
+
 const config = {
     entry: path.join(__dirname, 'src', 'index.js'),
     node: {
