@@ -1,4 +1,6 @@
 .c-main {
-    background-color: #000;
-    padding-bottom: 30px;
+    background-image: url("../../resources/img/main-image.jpg");
+}
+.c-main--dark {
+    background: rgba(0, 0, 0, 0.7);
 }
