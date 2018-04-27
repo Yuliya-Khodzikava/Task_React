@@ -4,7 +4,7 @@ import './SearchItems.scss';
 
 import SearchButton from 'views/SearchButton/SearchButton.js';
 import SearchText from 'views/SearchText/SearchText.js';
-//import SearchField from 'views/SearchField/SearchField.js';
+import SearchField from 'views/SearchField/SearchField.js';
 import SearchFilter from 'views/SearchFilter/SearchFilter.js';
 import SearchAdditionalItems from 'views/SearchAdditionalItems/SearchAdditionalItems.js';
 //import ResultsBody from 'views/ResultsBody/ResultsBody.js';
@@ -54,25 +54,12 @@ class SearchItems extends React.Component {
             <div>
                 <div className="c-search_items">
                     {SearchText}
-
-                    <div className="c-search_field">
-                        <input type="search" value={this.state.inputValue} onChange={this.handleChange} placeholder="Type here" />
-                    </div>
-
+                    <SearchField currentValue={this.state.inputValue} handleChanges={this.handleChange} />
                     {SearchButton}
                     <SearchFilter />
                 </div>
 
-                <div className="c-search_additional_items">
-                    <div className="c-search--margin">
-                        <ResultsCount />
-                        <div className="c-results_filter">
-                            <p onClick={this.handleSortRate} style={{color: this.state.sortColorRate}} className="c-results_filter_cursor">rating</p>
-                            <p onClick={this.handleSortDate} style={{color: this.state.sortColorDate}} className="c-results_filter_cursor">release date</p>
-                            <p>Sort by</p>
-                        </div>
-                    </div>
-                </div>
+                <SearchAdditionalItems sortingDate={this.handleSortDate} sortingRate={this.handleSortRate} sortingColorDate={{color: this.state.sortColorDate}} sortingColorRate={{color: this.state.sortColorRate}} />
 
                 <div className="c-results_body">
                     <div className="c-results_body--smaller-container">
