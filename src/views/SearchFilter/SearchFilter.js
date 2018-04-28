@@ -4,36 +4,29 @@ import './SearchFilter.scss';
 
 class SearchFilter extends React.Component {
 
-    constructor() {
-        super();
-        this.state = {
-            bgcolor: '#e50914',
-            seccolor: 'rgba(255,255,255, 0.6)'
-        };
-        this.handleChangeGenre = this.handleChangeGenre.bind(this);
-        this.handleChangeTitle = this.handleChangeTitle.bind(this);
-    }
+    handleFilter() {
+        // Get the container element
+        var btnContainer = document.getElementById("c-search_filter");
 
-    handleChangeGenre(event) {
-        this.setState({
-            seccolor: '#e50914',
-            bgcolor: 'rgba(255,255,255, 0.6)'
-        })
-    }
+        // Get all buttons with class="btn" inside the container
+        var btns = btnContainer.getElementsByClassName("btn");
 
-    handleChangeTitle(event) {
-        this.setState({
-            seccolor: 'rgba(255,255,255, 0.6)',
-            bgcolor: '#e50914'
-        })
+        // Loop through the buttons and add the active class to the current/clicked button
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
     }
 
     render() {
         return (
-            <div className="c-search_filter">
+            <div id="c-search_filter" className="c-search_filter">
                 <p>SEARCH BY</p>
-                <button ref="btn_title" style={{backgroundColor: this.state.bgcolor}} onClick={this.handleChangeTitle}>TITLE</button>
-                <button ref="btn_genre" style={{backgroundColor: this.state.seccolor}} onClick={this.handleChangeGenre}>GENRE</button>
+                <button className="btn active" onClick={this.handleFilter}>TITLE</button>
+                <button className="btn" onClick={this.handleFilter}>GENRE</button>
             </div>
         );
     }

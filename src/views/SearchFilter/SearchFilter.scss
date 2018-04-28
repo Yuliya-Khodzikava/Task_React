@@ -10,15 +10,18 @@
     padding-top: 5px;
     font-weight: bold;
 }
-.c-search_filter button {
+.c-search_filter .active, .btn:hover {
+  background-color: #e50914;
+}
+.btn {
     color: #fff;
     width: 65px;
     height: 20px;
-
     border-radius: 2px;
     font-size: 10px;
     font-weight: bold;
     border: none;
     cursor: pointer;
     margin-right: 15px;
+    background-color: rgba(255,255,255, 0.6);
 }
