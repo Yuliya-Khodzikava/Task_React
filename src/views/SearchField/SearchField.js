@@ -8,7 +8,9 @@ class SearchField extends Component {
 
         return (
             <div className="c-search_field">
-                <input type="search" value={this.props.currentValue} onChange={this.props.handleChanges} placeholder="Type here" />
+                <input type="search" value={this.props.currentValue}
+                onChange={this.props.handleChanges}
+                placeholder="Type here" className="c-search_field_input" />
             </div>
         );
     }

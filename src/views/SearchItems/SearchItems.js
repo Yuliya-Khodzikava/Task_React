@@ -27,7 +27,7 @@ class SearchItems extends React.Component {
     handleChange(event){
         let val = event.target.value.toLowerCase();
         var filteredList = this.props.items.filter((item) => {
-            return item.title.toLowerCase().search(val)!== -1;
+            return item.genre.toLowerCase().search(val)!== -1;
         });
 
         this.setState({searchItems: filteredList, inputValue: event.target.value});
@@ -59,7 +59,10 @@ class SearchItems extends React.Component {
                     <SearchFilter />
                 </div>
 
-                <SearchAdditionalItems sortingDate={this.handleSortDate} sortingRate={this.handleSortRate} sortingColorDate={{color: this.state.sortColorDate}} sortingColorRate={{color: this.state.sortColorRate}} />
+                <SearchAdditionalItems sortingDate={this.handleSortDate}
+                sortingRate={this.handleSortRate}
+                sortingColorDate={{color: this.state.sortColorDate}}
+                sortingColorRate={{color: this.state.sortColorRate}} />
 
                 <div className="c-results_body">
                     <div className="c-results_body--smaller-container">
