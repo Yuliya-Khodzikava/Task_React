@@ -1,7 +1,5 @@
-export const SET_SEARCH_TEXT = 'SET_SEARCH_TEXT';
-export const SET_SEARCH_TYPE = 'SET_SEARCH_TYPE';
-export const REQUEST_MOVIES = 'REQUEST_MOVIES';
-export const RECEIVE_MOVIES = 'RECEIVE_MOVIES';
+import {SET_SEARCH_TEXT, SET_SEARCH_TYPE, REQUEST_MOVIES, SHOW_MOVIES, SORT_MOVIES_BY_DATE, SORT_MOVIES_BY_RATE} from '../constants/constants';
+import MovieItems from '../reducers/MovieItems';
 
 export const setSearchText = (searchText) => {
     return {
@@ -15,25 +13,28 @@ export const setSearchType = (searchType) => {
         payload: searchType
     }
 };
-export const requestMovies = (searchText, searchField) => {
+export const requestMovies = () => {
     return {
-        type: REQUEST_MOVIES,
-        payload: {
-            searchText,
-            searchField
-        }
+        type: REQUEST_MOVIES
     }
 };
-export const receiveMovies = (searchResult) => {
+export const sortMoviesByDate = () => {
     return {
-        type: RECEIVE_MOVIES,
-        payload: searchResult
+        type: SORT_MOVIES_BY_DATE,
     }
 };
-export const getMovies = (searchText, searchField) => {
-  return dispatch => {
-    dispatch(requestMovies(searchText, searchField))
-    return fetch(`https:localhost:8080`)
-          .then(searchResult => dispatch(receiveMovies(searchResult)))
-  }
+export const sortMoviesByRate = () => {
+    return {
+        type: SORT_MOVIES_BY_RATE,
+    }
+};
+export const showMovies = () => {
+   return dispatch => {
+       setTimeout(() => {
+           dispatch({
+               type: SHOW_MOVIES,
+               payload: MovieItems
+           })
+       }, 2000)
+   }
 };

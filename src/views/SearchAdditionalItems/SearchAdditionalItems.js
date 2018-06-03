@@ -10,10 +10,10 @@ class SearchAdditionalItems extends React.Component {
         return (
             <div className="c-search_additional_items">
                 <div className="c-search--margin">
-                    <ResultsCount />
+                    <ResultsCount count={this.props.count}/>
                     <div className="c-results_filter">
-                        <p onClick={this.props.sortingRate} style={{color: this.props.sortingColorRate}} className="c-results_filter_cursor">rating</p>
-                        <p onClick={this.props.sortingDate} style={{color: this.props.sortingColorRate}} className="c-results_filter_cursor">release date</p>
+                        <p onClick={this.props.sortingRate} className="c-results_filter_cursor">rating</p>
+                        <p onClick={this.props.sortingDate} className="c-results_filter_cursor">release date</p>
                         <p>Sort by</p>
                     </div>
                 </div>
