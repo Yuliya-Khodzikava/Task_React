@@ -1,0 +1,72 @@
+.c-movie {
+    background-image: url(../../resources/img/main-image.jpg);
+    height: 100%;
+    position: relative;
+}
+.c-movie--dark {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+.c-movie button {
+    background-color: #fff;
+    color: red;
+    outline: none;
+    width: 80px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    right: 281px;
+    top: 15px;
+    cursor: pointer;
+}
+.c-movie_items {
+    width: 960px;
+    margin: 0 auto;
+}
+.c-movie_image {
+    width: 280px;
+    height: 370px;
+    background-image: url(../../resources/img/pulpfiction.jpg);
+    margin-top: 50px;
+    float: left;
+}
+.c-movie_description {
+    margin-top: 50px;
+    float: right;
+    width: 650px;
+    color: #fff;
+    h2 {
+        color: #e50914;
+        float: left;
+    }
+    div {
+        border: 1px solid green;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        color: green;
+        text-align: center;
+        padding-top: 7px;
+        box-sizing: border-box;
+        float: left;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+    h3 {
+        content: "";
+        clear: both;
+    }
+}
+.c-movie_date {
+    float: left;
+    font-weight: bold;
+}
+.c-movie_time {
+    float: left;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.c-movie_text {
+    content: "";
+    clear: both;
+}

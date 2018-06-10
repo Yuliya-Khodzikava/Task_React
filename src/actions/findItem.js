@@ -35,6 +35,6 @@ export const showMovies = () => {
                type: SHOW_MOVIES,
                payload: MovieItems
            })
-       }, 2000)
+       }, 1000)
    }
 };

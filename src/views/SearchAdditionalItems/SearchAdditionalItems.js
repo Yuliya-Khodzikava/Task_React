@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 import './SearchAdditionalItems.scss';
-
 import ResultsCount from 'views/ResultsCount/ResultsCount.js';
 
 class SearchAdditionalItems extends React.Component {
