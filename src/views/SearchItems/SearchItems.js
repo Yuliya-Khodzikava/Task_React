@@ -5,13 +5,13 @@ import {showMovies, setSearchType, setSearchText, requestMovies, sortMoviesByDat
 
 import './SearchItems.scss';
 
-import ResultsBody from 'views/ResultsBody/ResultsBody.js';
-import SearchButton from 'views/SearchButton/SearchButton.js';
-import SearchText from 'views/SearchText/SearchText.js';
-import SearchField from 'views/SearchField/SearchField.js';
-import SearchFilter from 'views/SearchFilter/SearchFilter.js';
-import SearchAdditionalItems from 'views/SearchAdditionalItems/SearchAdditionalItems.js';
-import ResultsCount from 'views/ResultsCount/ResultsCount.js';
+import ResultsBody from '../ResultsBody/ResultsBody.js';
+import SearchButton from '../SearchButton/SearchButton.js';
+import SearchText from '../SearchText/SearchText.js';
+import SearchField from '../SearchField/SearchField.js';
+import SearchFilter from '../SearchFilter/SearchFilter.js';
+import SearchAdditionalItems from '../SearchAdditionalItems/SearchAdditionalItems.js';
+import ResultsCount from '../ResultsCount/ResultsCount.js';
 
 class SearchItems extends React.Component {
 

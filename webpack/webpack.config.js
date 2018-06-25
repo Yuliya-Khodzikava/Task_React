@@ -1,17 +1,19 @@
+const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+//const CopyWebpackPlugin = require('copy-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const nodeExternals = require('webpack-node-externals');
 
-const config = {
+const client = {
     entry: path.join(__dirname, '../src', 'index.js'),
     node: {
         fs: "empty"
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
+        filename: 'public/client.bundle.js',
     },
     devtool: 'inline-source-map',
     plugins: [
@@ -98,4 +100,94 @@ const config = {
     }
 };
 
-module.exports = config;
+const server = {
+    entry: path.join(__dirname, '../src', 'server.js'),
+//    node: {
+//        fs: "empty"
+//    },
+    target: "node",
+    externals: [nodeExternals()],
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'server.bundle.js',
+    },
+    devtool: "source-map",
+    plugins: [
+        new CleanWebpackPlugin(['dist']),
+        new HtmlWebpackPlugin({
+            template: 'public/index.html'
+        }),
+        new webpack.BannerPlugin({
+            banner: 'require("source-map-support").install();',
+            raw: true,
+            entryOnly: false
+        }),
+        new ExtractTextPlugin('style.css')
+    ],
+
+    module: {
+        rules: [
+            {
+                test: /\.jsx?$/,
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['react', 'es2015'],
+                        plugins: [
+                            'react-hot-loader/babel'
+                        ]
+                    }
+                }
+            },
+//            {
+//                test: /\.css$/,
+//                use: ExtractTextPlugin.extract({
+//                    use: [{
+//                        loader: 'css-loader',
+//                        options: {
+//                            importLoaders: 1
+//                        }
+//                    }, {
+//                        loader: 'postcss-loader',
+//                        options: {
+//                            plugins: (loader) => [
+//                                require('autoprefixer')()
+//                            ]
+//                        }
+//                    }]
+//                })
+//            },
+            {
+                test: /\.scss$/,
+                use: ExtractTextPlugin.extract({
+                    use: [{
+                        loader: 'css-loader',
+                        options: {
+                            importLoaders: 1
+                        }
+                    }, {
+                        loader: 'sass-loader'
+                    }, {
+                        loader: 'postcss-loader',
+                        options: {
+                            plugins: (loader) => [
+                                require('autoprefixer')()
+                            ]
+                        }
+                    }],
+                    fallback: 'style-loader'
+                })
+            },
+            {
+                test: /\.(jpe?g|png|gif|svg|jpg)$/i,
+                    use: [
+                        'url-loader?limit=10000',
+                        'img-loader'
+                    ]
+            }
+        ]
+    }
+};
+
+module.exports = [client, server];

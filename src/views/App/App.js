@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.scss';
 
-import MainHeadSearch from 'views/MainHeadSearch/MainHeadSearch.js';
-import ErrorBoundary from 'views/ErrorBoundary/ErrorBoundary.js';
-import Footer from 'views/Footer/Footer.js';
+import MainHeadSearch from '../MainHeadSearch/MainHeadSearch.js';
+import ErrorBoundary from '../ErrorBoundary/ErrorBoundary.js';
+import Footer from '../Footer/Footer.js';
 
 class App extends React.Component {
 

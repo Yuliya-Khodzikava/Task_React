@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
-import Header from 'views/Header/Header.js';
+import Header from '../Header/Header.js';
 import './Movie.scss';
 
 class Movie extends React.Component {
