@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { hydrate } from 'react-dom';
+import ReactDOM, { hydrate } from 'react-dom';
 import {Provider} from 'react-redux';
 import {createStore, applyMiddleware} from 'redux';
 import {composeWithDevTools} from 'redux-devtools-extension';
@@ -24,7 +23,7 @@ const preloadedState = window.__PRELOADED_STATE__;
 delete window.__PRELOADED_STATE__;
 
 // Create Redux store with initial state
-const store = createStore(allReducers, preloadedState);
+const store = createStore(allReducers, preloadedState, composeWithDevTools(applyMiddleware(thunk)));
 
 hydrate(
     <BrowserRouter history={browserHistory}>
@@ -39,17 +38,3 @@ hydrate(
     </BrowserRouter>,
   document.getElementById("app")
 );
-
-//ReactDOM.render(
-//    <BrowserRouter history={browserHistory}>
-//        <Provider store={store}>
-//            <Switch>
-//                <Route path="/" exact component={App} />
-//                <Route path="/movies" component={Movie}/>
-//                <Route path="/search" component={App}/>
-//                <Route component={NotFound} />
-//            </Switch>
-//        </Provider>
-//    </BrowserRouter>,
-//    document.getElementById("app")
-//);

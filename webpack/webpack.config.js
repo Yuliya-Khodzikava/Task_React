@@ -102,29 +102,20 @@ const client = {
 
 const server = {
     entry: path.join(__dirname, '../src', 'server.js'),
-//    node: {
-//        fs: "empty"
-//    },
     target: "node",
     externals: [nodeExternals()],
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'server.bundle.js',
     },
-    devtool: "source-map",
+    devtool: "inline-source-map",
     plugins: [
         new CleanWebpackPlugin(['dist']),
-        new HtmlWebpackPlugin({
-            template: 'public/index.html'
-        }),
-        new webpack.BannerPlugin({
-            banner: 'require("source-map-support").install();',
-            raw: true,
-            entryOnly: false
-        }),
+//        new HtmlWebpackPlugin({
+//            template: 'public/index.html'
+//        }),
         new ExtractTextPlugin('style.css')
     ],
-
     module: {
         rules: [
             {
@@ -140,24 +131,24 @@ const server = {
                     }
                 }
             },
-//            {
-//                test: /\.css$/,
-//                use: ExtractTextPlugin.extract({
-//                    use: [{
-//                        loader: 'css-loader',
-//                        options: {
-//                            importLoaders: 1
-//                        }
-//                    }, {
-//                        loader: 'postcss-loader',
-//                        options: {
-//                            plugins: (loader) => [
-//                                require('autoprefixer')()
-//                            ]
-//                        }
-//                    }]
-//                })
-//            },
+            {
+                test: /\.css$/,
+                use: ExtractTextPlugin.extract({
+                    use: [{
+                        loader: 'css-loader',
+                        options: {
+                            importLoaders: 1
+                        }
+                    }, {
+                        loader: 'postcss-loader',
+                        options: {
+                            plugins: (loader) => [
+                                require('autoprefixer')()
+                            ]
+                        }
+                    }]
+                })
+            },
             {
                 test: /\.scss$/,
                 use: ExtractTextPlugin.extract({
