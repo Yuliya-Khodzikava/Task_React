@@ -15,11 +15,7 @@ import allReducers from './reducers';
 const app = Express();
 const port = 3000;
 
-//Serve static files
-app.use('/static', Express.static('static'));
-
-// This is fired every time the server side receives a request
-app.use(handleRender);
+app.get('/', handleRender);
 
 function handleRender(req, res) {
     // Create a new Redux store instance
@@ -58,7 +54,7 @@ function renderFullPage(html, preloadedState) {
           // http://redux.js.org/recipes/ServerRendering.html#security-considerations
           window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState).replace(/</g, '\\u003c')}
         </script>
-        <script src="/static/bundle.js"></script>
+        <script src="bundle.js"></script>
       </body>
     </html>
     `
