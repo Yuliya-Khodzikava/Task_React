@@ -1,7 +1,8 @@
 // @flow
 
 import React, { Component } from 'react';
-import './App.scss';
+import styled from "styled-components";
+//import './App.scss';
 
 import MainHeadSearch from '../MainHeadSearch/MainHeadSearch.js';
 import ErrorBoundary from '../ErrorBoundary/ErrorBoundary.js';
@@ -12,13 +13,17 @@ class App extends React.Component {
     render() {
         return (
             <ErrorBoundary>
-                <div className="app">
+                <AppWrapper>
                     <MainHeadSearch />
                     <Footer />
-                </div>
+                </AppWrapper>
             </ErrorBoundary>
         );
     }
 }
+
+const AppWrapper = styled.div`
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+`;
 
 export default App;
